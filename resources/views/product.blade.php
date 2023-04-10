@@ -1,6 +1,8 @@
 @extends('layouts.main')
 
-{{-- @section('title', {{ $status }}) --}}
+@section('title', $product['name'] )
+@section('description', $product['description'] )
+
 @section('container')
     <div class="container-fluid d-flex justify-content-center">
         <div class="row">

@@ -1,8 +1,9 @@
 @extends('layouts.main')
 
-{{-- @section('title', {{ $status }}) --}}
-@section('container')
+@section('title', $title )
+@section('description', $description )
 
+@section('container')
     <h1 class="mx-5 my-5">LLSIF Cards:</h1>
     <div class="container-fluid row d-flex flex-wrap justify-content-center" style="padding: 10px 70px;">
         @foreach ($products as $product)

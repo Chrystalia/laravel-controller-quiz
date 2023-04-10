@@ -26,7 +26,11 @@ class ProductController extends Controller
     ];
 
     public function index(){
-        return view('/products', ['products'=> $this->products]);
+        return view('/products', [
+            'products'=> $this->products,
+            'title' =>'Home',
+            'description' => 'Love Live School Idol Festival'
+        ]);
     }
 
     /**
