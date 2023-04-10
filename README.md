@@ -36,12 +36,12 @@ Hi, my name is Chrystalia Glenys Winata Ang with student ID 2502041123. This is 
 In a terminal:
 - Clone the repository 
 ```sh
-    git clone https://github.com/Chrystalia/laravel-tailwind-profile-website.git
+    git clone https://github.com/Chrystalia/laravel-controller-quiz.git
 ```
 
 - Redirect to cloned folder  
 ```sh
-    cd .\laravel-tailwind-profile-website\
+    cd .\laravel-tailwind-controller-quiz\
 ```
 
 - Install composer 
@@ -49,17 +49,6 @@ In a terminal:
     composer install
 ```
 
-- Install tailwindcss and its peer dependencies via npm 
-```sh
-    npm install -D tailwindcss postcss autoprefixer
-```
-
-- Run build process  
-```sh
-    npm run dev
-```
-
-Open a new terminal (make sure you're in the right directory):
 - Make copy of env.example into .env 
 ```sh
     copy .env.example .env
